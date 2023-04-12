@@ -12,7 +12,7 @@ export default function Card({ image, title, description }: CardProps) {
 
   return (
     <div
-      className='relative h-[200px] w-[300px] rounded-lg shadow-xl'
+      className='relative h-[200px] w-full md:w-[300px] rounded-lg shadow-xl'
       onMouseEnter={() => setShowDescription(true)}
       onMouseLeave={() => setShowDescription(false)}
     >
